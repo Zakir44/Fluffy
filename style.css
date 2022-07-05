@@ -3,4 +3,30 @@ body{
     font-family: 'Gulzar', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    background-image: url(images/donation9.jpg);
+    height: 500px; /* You must set a specified height */
+    background-position: auto; /* Center the image */
+    width: 100%;
+}
+.text-1{
+    text-align: center;
+    color:whitesmoke
+}
+.p-text{
+    text-align: center;
+    color: whitesmoke;
+}
+.donate-button{
+    width: 83%;
+    margin-right: 0px;
+    font-size: 30px;
+    height:625px;
+    background-image: linear-gradient(yellow,darkorange,grey);
+    color:black;
+   
 }
