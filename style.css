@@ -1,23 +1,34 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Finlandica', sans-serif;
     font-family: 'Gulzar', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
-    padding: 0;
+    
 }
 
 .top{
     background-image: url(images/donation9.jpg);
-    height: 500px; 
-    background-position: auto;
-    width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100%;
+    
 }
 .text-1{
     text-align:center;
-
     color:whitesmoke;
+
+    
+}
+.First-data{
+    text-align: center;
+    position: absolute;
+    margin-top:90px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 .p-text{
@@ -28,20 +39,44 @@ body{
     text-align: center;
     color: black;
 }
-.donate-button{
-    width: 83%;
-    align-items: center;
-    margin-right: 5px;
-    font-size: 30px;
-    height:625px;
-    background-image: linear-gradient(whitesmoke,white);
-    color:black;
+.donate-button1{
+    text-decoration: none;
+    background-color:orangered;
+    box-sizing: border-box;
+    border-width:10px ;
+    padding: 15px 15px;
+    border-radius: 6px;
+    margin: 50%;
+    height: 50%;
+
    
 }
+
 .Donation-colour{
     color: black;
     text-align: center;
 }
+
+.donate-button{
+    text-decoration: none;
+    font-size: medium;
+    background-color:orangered;
+    margin: 50%;
+    height: 50%;
+    border-radius: 6px;
+    padding: 10px 10px;
+
+
+}
+.donation-details{
+  
+    
+}
+#Text{
+    color: whitesmoke;
+    font-size: medium;
+}
+
 
 #hilight{
     background-color: black;
@@ -49,16 +84,29 @@ body{
 }
 .flexible-container{
     display: flex;
+
    
 }
-.Box{
-    margin: 12px;
+
+.recent-activity{
     width: 50%;
-    padding: 6px;
-    border: 6px;
-    box-shadow: 10px;
+    padding: 8%;
+}
+.recent-activity img{
+    width: 90%;
+    border-radius: 12px;
+}
+.Box{
+    margin: 10px 10px 10px 10px;
+    width: 50%;
+    padding-inline-start: 6%;
+    border: 12px;
+    box-shadow: 10px black;
     background-color: grey;
 
+}
+#id{
+    text-align: center;
 }
 #Abey{
     background-color: burlywood;
@@ -69,7 +117,7 @@ body{
     margin-right: 5%;
     padding-left: 3%;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px grey;
+    box-shadow: 10px 10px 40px bisque;
 }
 img {
     max-width: 100%;
@@ -78,4 +126,13 @@ img {
 .cat {
     height: 200px;
     width: 200px;
+}   
+.Footer-text {
+        text-align:center;
+        font-size: 30px;
+        color: black;
+        background-color: burlywood;
+        margin: 1px;
+        padding: 1px;
+    
    }
