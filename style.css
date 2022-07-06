@@ -9,24 +9,73 @@ body{
 
 .top{
     background-image: url(images/donation9.jpg);
-    height: 500px; /* You must set a specified height */
-    background-position: auto; /* Center the image */
+    height: 500px; 
+    background-position: auto;
     width: 100%;
+    background-repeat: no-repeat;
 }
 .text-1{
-    text-align: center;
-    color:whitesmoke
+    text-align:center;
+
+    color:whitesmoke;
+    
 }
 .p-text{
     text-align: center;
     color: whitesmoke;
 }
+.p2-text{
+    text-align: center;
+    color: black;
+}
 .donate-button{
     width: 83%;
-    margin-right: 0px;
+    align-items: center;
+    margin-right: 5px;
     font-size: 30px;
     height:625px;
-    background-image: linear-gradient(yellow,darkorange,grey);
+    background-image: linear-gradient(whitesmoke,white);
     color:black;
    
 }
+.Donation-colour{
+    color: black;
+    text-align: center;
+}
+
+#hilight{
+    background-color: black;
+    color: aliceblue;
+}
+.flexible-container{
+    display: flex;
+   
+}
+.Box{
+    margin: 12px;
+    width: 50%;
+    padding: 6px;
+    border: 6px;
+    box-shadow: 10px;
+    background-color: grey;
+
+}
+#Abey{
+    background-color: burlywood;
+}
+.Box-banai{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.cat {
+    height: 200px;
+    width: 200px;
+   }
