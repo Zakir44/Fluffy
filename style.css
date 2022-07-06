@@ -102,7 +102,7 @@ body{
 }
 .ammount-selection{
     display: flex;
-    margin-left: 12px;
+    margin-left: 40px;
     
     
     
@@ -116,7 +116,7 @@ body{
 }
 .takar-poriman{
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 120px;
     margin-bottom: 30px;
 
 }
