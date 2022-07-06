@@ -9,11 +9,13 @@ body{
 }
 
 .top{
-    background-image: url(images/donation9.jpg);
+    margin-right: -11%;
+    background-image: url(images/donation1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh; 
-    width: 100%;
+    
+    
     
 }
 .text-1{
@@ -34,10 +36,15 @@ body{
 .p-text{
     text-align: center;
     color: whitesmoke;
+    padding: 30px;
+}
+.contract{
+    padding-bottom: 30px;
 }
 .p2-text{
     text-align: center;
     color: black;
+
 }
 .donate-button1{
     text-decoration: none;
@@ -46,7 +53,7 @@ body{
     border-width:10px ;
     padding: 15px 15px;
     border-radius: 6px;
-    margin: 50%;
+    margin: 52%;
     height: 50%;
 
    
@@ -55,37 +62,100 @@ body{
 .Donation-colour{
     color: black;
     text-align: center;
+    margin-top: 70px;
 }
 
 .donate-button{
+    width: 32px;
+    height: 32px;
     text-decoration: none;
-    font-size: medium;
-    background-color:orangered;
-    margin: 50%;
-    height: 50%;
+    background-color:grey;
+    margin: 52%;
+    padding: 12px;
     border-radius: 6px;
-    padding: 10px 10px;
-
-
+    box-shadow: 3px black;
 }
 .donation-details{
+    border: none;
+     border-bottom: 2px solid black;
+     margin-left:47%;
   
     
 }
 #Text{
     color: whitesmoke;
-    font-size: medium;
+    font-size: large;
+    margin-top: 60px;
+    margin-bottom: 70px;
 }
 
 
 #hilight{
-    background-color: black;
-    color: aliceblue;
+    background-color: grey;
+    
+    color:black;
+    border-width: 1px;
+    border: 2px solid black;
 }
 .flexible-container{
+    display: flex; 
+}
+.ammount-selection{
     display: flex;
+    margin-left: 12px;
+    
+    
+    
+}
+.ammount-selection h1{
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    
+}
+.takar-poriman{
+    padding: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 
-   
+}
+.donation-details{
+    margin-left:85px;
+
+    margin-right: 30px;
+    padding-inline-start: 400px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+#text-d{
+    text-align: center;
+    top: 30px;
+    text-decoration: none;
+    border: 0px solid;
+    left: 40px;
+
+}
+.set-button{
+    margin-top: 60px 40px;
+    margin-left: 70px 50px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    left: 40px;
+    
+
+}
+
+.donate-submit{
+    color: white;
+    width: 90px;
+    background-color: orangered;
+    border: 0px solid;
+    height: 40px;
+    border-radius:6px ;
+    position: absolute;
+    
 }
 
 .recent-activity{
@@ -101,15 +171,20 @@ body{
     width: 50%;
     padding-inline-start: 6%;
     border: 12px;
-    box-shadow: 10px black;
     background-color: grey;
 
 }
 #id{
     text-align: center;
 }
-#Abey{
+#food{
     background-color: burlywood;
+}
+#shelter{
+    background-color: palevioletred;
+}
+#cloths{
+    background-color: grey;
 }
 .Box-banai{
     width: 40%;
@@ -117,22 +192,72 @@ body{
     margin-right: 5%;
     padding-left: 3%;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px bisque;
+    margin-top: 30px;
 }
-img {
-    max-width: 100%;
-    max-height: 100%;
-   }
-.cat {
-    height: 200px;
-    width: 200px;
-}   
+.b{
+    margin-left: 300px;
+    margin-top:50px;
+    color: slategrey;
+}
+
+#icons{
+    margin: 10%;
+    
+}
+#donation-selection-button{
+    display: flex;
+    width:100%;
+    margin: 0 auto;
+    margin-top:75px;
+    height:250px;
+    margin-bottom: 100px;
+    
+
+}
+#ammount-box{
+    width: 80px;
+    height: 30px;
+    display: block;
+    box-shadow: 1px solid grey;
+    border-color: white;
+    margin-left: 90px;
+    border-radius: -100px;
+    padding-inline-start: 10px;
+}
+.email-input{
+    text-decoration:none;
+    height: 20vh;
+    width: 180vh;
+    margin-left: 180px;
+    background-color:antiquewhite;
+    
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+.mail-submit-button{
+    background-color:tomato;
+    font-size: medium;
+    width: 70px;
+    border: 1px solid ;
+    text-align: center;
+    margin: 50px 0px;
+    
+
+} 
+#b1{
+    color: white;
+}
 .Footer-text {
         text-align:center;
         font-size: 30px;
-        color: black;
-        background-color: burlywood;
-        margin: 1px;
+        color: whitesmoke;
+        background-color: black;
+        margin-top: 1px;
+        margin-right: -11%;
         padding: 1px;
     
    }
+
+
+
